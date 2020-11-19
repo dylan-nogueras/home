@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Aure",
   middleName: "",
   lastName: "Nogueras",
-  message: " Interested in learning and contribute to progress with software. ",
+  message: " Interested in learning and contributing to progress with the development of software. ",
   icons: [
     {
       image: "fa-github",
@@ -46,8 +46,8 @@ const about = {
   imageLink: require("../editable-stuff/perfil.jpg"),
   imageSize: 375,
   message:
-    "My name is Aure Nogueras. I've finished my Bachelor in Computer Science Engineering in 2020 at the University of Granada and the Tecnhische Universität München. Currently, I'm studying a Master in Computer Science Engineering.",
-  //resume: require("../editable-stuff/resume.pdf"),
+    "My name is Aure Nogueras. I finished my Bachelor's Degree in Computer Science Engineering in 2020 at the University of Granada and the Technische Universität München. I am currently studying a Master's Degree in Computer Science Engineering in Granada.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -57,10 +57,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "aure-nogueras", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["LGTBClub","Refranator", "GatoEncerrado_TFG"],
 };
 
 // Leadership SECTION
@@ -92,16 +92,17 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 60 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 60 },
-    { name: "Java", value: 70 },
+    { name: "Python", value: 50 },
+    { name: "C/C++", value: 60 },
+    { name: "JavaScript", value: 50 },
+    { name: "Java", value: 55 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Adaptability", value: 75 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Perfectionist", value: 85 },
+    { name: "Adaptability", value: 70 },
+    { name: "Problem Solving", value: 70 },
     { name: "Empathy", value: 90 },
+    { name: "Eager to learn", value: 85 },
   ],
 };
 
