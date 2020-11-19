@@ -6,7 +6,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
     <div
       id="leadership"
       className="jumbotron jumbotron-fluid m-0"
-      style={{ backgroundColor: "white" }}
+      style={{ backgroundColor: "light grey" }}
     >
       <div className="container container-fluid">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>

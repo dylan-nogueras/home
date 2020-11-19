@@ -65,25 +65,24 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Hobbies",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "I like reading, writing and listening to music. Sometimes, I play the electric guitar. I also enjoy playing video games, traveling or meeting my friends. Other of my interests is my small collection of different Rubik's cubes. ",
   images: [
-   /* { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    { 
+      img: require("../editable-stuff/landscape.jpg"), 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },*/
+      img: require("../editable-stuff/alhambra.jpg"), 
+    },
+    { 
+      img: require("../editable-stuff/albaicin.jpg"), 
+    },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"620",
+    height:"250"
   }
 };
 
@@ -105,6 +104,7 @@ const skills = {
     { name: "Eager to learn", value: 85 },
   ],
 };
+
 
 // GET IN TOUCH SECTION
 const getInTouch = {
