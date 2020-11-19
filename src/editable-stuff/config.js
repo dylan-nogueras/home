@@ -16,6 +16,10 @@ const mainBody = {
       url: "https://github.com/aure-nogueras",
     },
     {
+      image: "fa-telegram",
+      url: "https://t.me/AureNL",
+    },
+    {
       image: "fa-facebook",
       url: "https://www.facebook.com/aurelia.nogueras/",
     },
