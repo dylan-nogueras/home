@@ -20,10 +20,6 @@ const mainBody = {
       url: "https://t.me/AureNL",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/aurelia.nogueras/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/anogueraslara/",
     },
@@ -64,7 +60,7 @@ const repos = {
   heading: "Projects",
   gitHubUsername: "aure-nogueras", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["LGTBClub","Refranator", "GatoEncerrado_TFG"],
+  specificRepos: ["LGTBIQA-Recommendations", "Refranator", "GatoEncerrado_TFG", "LGTBClub"],
 };
 
 // Leadership SECTION
@@ -115,7 +111,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm looking for a Software Engineering internship to have my first job experience and learn a lot. If you have any questions or offers, you can contact me here",
+    "I'm looking for an Associate Software Engineer position to improve my skills and learn a lot. If you have any questions or offers, you can contact me here",
   email: "anogueras@correo.ugr.es",
 };
 
