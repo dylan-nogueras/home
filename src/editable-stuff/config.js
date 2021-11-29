@@ -6,22 +6,22 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Aure",
+  firstName: "Dylan",
   middleName: "",
   lastName: "Nogueras",
   message: " Interested in learning and contributing to progress with the development of software. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/aure-nogueras",
+      url: "https://github.com/dylan-nogueras",
     },
     {
       image: "fa-telegram",
-      url: "https://t.me/AureNL",
+      url: "https://t.me/DylanNL",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/anogueraslara/",
+      url: "https://www.linkedin.com/in/dnogueraslara/",
     },
   ],
 };
@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/perfil.jpg"),
   imageSize: 375,
   message:
-    "My name is Aure Nogueras. I finished my Bachelor's Degree in Computer Science Engineering in 2020 at the University of Granada and the Technische Universität München. I am currently studying a Master's Degree in Computer Science Engineering in Granada.",
+    "My name is Dylan Nogueras. I finished my Bachelor's Degree in Computer Science Engineering in 2020 at the University of Granada and the Technische Universität München. I am currently studying a Master's Degree in Computer Science Engineering in Granada.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -58,7 +58,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Projects",
-  gitHubUsername: "aure-nogueras", //i.e."johnDoe12Gh"
+  gitHubUsername: "dylan-nogueras", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: ["LGTBIQA-Recommendations", "Refranator", "GatoEncerrado_TFG", "LGTBClub"],
 };
