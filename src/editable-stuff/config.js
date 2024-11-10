@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/perfil.jpg"),
   imageSize: 375,
   message:
-    "My name is Dylan Nogueras. I finished my Bachelor's Degree in Computer Science Engineering in 2020 at the University of Granada and the Technische Universität München. I am currently studying a Master's Degree in Computer Science Engineering in Granada.",
+    "My name is Dylan Nogueras. I finished my Bachelor's Degree in Computer Science Engineering in 2020 at the University of Granada and the Technische Universität München. I also completed a Master's Degree in Computer Science Engineering in Granada in 2023.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -68,7 +68,7 @@ const leadership = {
   show: true,
   heading: "Hobbies",
   message:
-    "I like reading, writing and listening to music. Sometimes, I play the electric guitar. I also enjoy playing video games, traveling or meeting my friends. Other of my interests is my small collection of different Rubik's cubes. ",
+    "I like bouldering and listening to music. I play the drums in a rock band. I also enjoy playing video games, traveling or meeting my friends. Other of my interests is my small collection of different Rubik's cubes. ",
   images: [
     { 
       img: require("../editable-stuff/landscape.jpg"), 
@@ -91,17 +91,16 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 50 },
+    { name: "Apex", value: 85 },
     { name: "C/C++", value: 60 },
     { name: "JavaScript", value: 50 },
     { name: "Java", value: 55 },
   ],
   softSkills: [
-    { name: "Perfectionist", value: 85 },
-    { name: "Adaptability", value: 70 },
+    { name: "Reliability", value: 85 },
     { name: "Problem Solving", value: 70 },
     { name: "Empathy", value: 90 },
-    { name: "Eager to learn", value: 85 },
+    { name: "Attention to detail", value: 90 },
   ],
 };
 
@@ -111,8 +110,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm looking for an Associate Software Engineer position to improve my skills and learn a lot. If you have any questions or offers, you can contact me here",
-  email: "anogueras@correo.ugr.es",
+    "If you have any questions or offers, you can contact me here",
+  email: "noguerasdylan@gmail.com",
 };
 
 // Blog SECTION
